@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+    padding: 20px 8rem;
+   
+    height: 500px;
+}
+a{
+    text-decoration: none;
+}
+header .all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left a img{
+    width: 55%;
+}
+.right a {
+    margin-left: 13px;
+    color: #fff;
+}
+.style{ 
+    background: url(/Photos/pexels-photo-225630.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 600px;
+   flex-direction: column;
+}
+
+.style-1{
+    text-align: center;
+}
+.style h1{
+    color: #fff;
+    font-size: 50px;
+}
+.style p{
+    color: #fff;
+    font-size: 20px;
+    margin:15px 0;
+}
+.style-2 input{
+    outline: none;
+    padding: 10px 30px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+.box-all{
+   width:  100%;
+   display: flex;
+   justify-content:center;
+    align-items: center;
+    text-align: center;
+    
+}
+.cont{
+    height: 700px;
+}
+.box-all .box1{
+    background: url(/Photos/Tokyo_Dollarphotoclub_72848283-copy.jpg);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px;
+    
+    
+
+}
+.box-all .box2{
+    background: url(/Photos/1600x1200-4.jpg);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px;
+
+}
+.box-all .box3{
+    background: url(/Photos/pexels-photo-1.jpg);
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px;
+
+}
+.box-all .box4{
+    background: url(/Photos/bf1202aedf2c5b6a57d379575619a488.jpg    );
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    width: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0 30px;
+
+}
+.hp{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+.hp h1{
+    font-size: 70px;
+    color: rgba(255, 140, 0, 0.774);
+}
+.hp p{
+    margin: 25px;
+    font-size: 35px;
+}
+.box-all h1{
+    color: darkorange;
+ 
+}
+.fifth{
+    height: 600px;
+    background-color: #fff;
+}
+.fifth-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 90px;
+}
+.fifth-1 h1{
+    font-size: 45px;
+}
+.fifth-1 p{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.486);
+}
+.fifth-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.fifth-3 img{
+    width: 30%;
+}
+.sixth img{
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.video1
+{
+    width: 100%;
+    height: 300px;
+}
+
+.video2
+{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    pointer-events: none;
+}
+
+
+.articles-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 80px;
+}
+.articles{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.articles-3{
+    margin: 0 20px;
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.articles-3 img{
+    width: 100%;
+    border-radius: 100px;
+}
+.articles-1{
+    margin-top: 25px;
+}
+
+
